@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 242, 245);
+  }
+  
+.answer-container {
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Style for the h1 heading */
+.answer-container h1 {
+    text-align: center;
+}
+
+/* Style for the form */
+.answer-container form {
+    display: grid;
+    gap: 15px;
+}
+
+/* Style for the answer textarea */
+.answer-container textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style for the hidden inputs */
+.answer-container input[type="hidden"] {
+    display: none; /* Hide the hidden inputs */
+}
+
+/* Style for the submit button */
+.answer-container button {
+    width: 30%; 
+    margin: 0 auto; 
+    padding: 8px 15px; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+    box-shadow: none; 
+}
+.answer-container button:hover {
+    background-color: #555;
+}
+
+.footer-info {
+    text-align: right;
+    color:white;
+    margin-top: 60px;
+    margin-right: 20px;
+}

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 242, 245);
+}
+
+.list_of_users_header {
+    text-align: center;
+    font-size: 25px;
+    color: #131313;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.user-item {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-item i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.user-details {
+    margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+    margin-top: 10px;
+    padding: 6px 6px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    filter: brightness(80%);
+}
+
+.footer-info {
+    text-align: right;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-right: 20px;
+}

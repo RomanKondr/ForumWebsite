@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 242, 245);
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.module-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.list_of_modules_header {
+    text-align: center;
+    font-size: 23px;
+    color: rgb(19, 19, 19);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.module-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.module-icon {
+    max-width: 100px; 
+}
+
+.module-details {
+    margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336; 
+    color: white;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    filter: brightness(80%);
+}
+
+nav .footer-info {
+    text-align: right;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.add-module-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(234, 242, 245);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #34495e;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3498db;
+    margin: 20px auto; 
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    display: block; 
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.footer-info {
+    text-align: right !important;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo img {
+        position: absolute;
+        max-width: 150px;
+        height: 132px;
+    }
+
+    nav a {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    nav input[type=text] {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .search::before {
+        top: 50%;
+    }
+}
